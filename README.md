@@ -16,7 +16,7 @@ Otherwise, you can statically define this by using the argument `-p 8443:8443` i
 
 ```
 ~
-matthew.bates@LinkMJB🍺 $ docker run -e REMOTE_HOST=jenkins.codice.org -e REMOTE_PORT=443 -itP registry.phx.connexta.com:5000/devops/nginx-reverse-proxy:latest
+matthew.bates@LinkMJB🍺 $ docker run -e REMOTE_HOST=google.com -e REMOTE_PORT=443 -itP nginx-reverse-proxy:latest
 ...Generating SSL certificates
 Generating a 2048 bit RSA private key
 .................................+++
@@ -33,21 +33,13 @@ If you enter '.', the field will be left blank.
 Country Name (2 letter code) [AU]:US
 State or Province Name (full name) [Some-State]:AZ
 Locality Name (eg, city) []:Phoenix
-Organization Name (eg, company) [Internet Widgits Pty Ltd]:Connexta
-Organizational Unit Name (eg, section) []:allyourbateses
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:m4s73rz
+Organizational Unit Name (eg, section) []:allyourbatesesarebelongtous
 Common Name (e.g. server FQDN or YOUR name) []:linkmjb.local
-Email Address []:matthew.bates@connexta.com
-...Setting up as reverse proxy to jenkins.codice.org:443
+Email Address []:linkmjb@gmail.com
+...Setting up as reverse proxy to google.com:443
 ...Running nginx
-172.17.0.1 - - [16/May/2018:21:24:32 +0000] "GET / HTTP/1.1" 200 54.88.158.46:443 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36" "-"
-172.17.0.1 - - [16/May/2018:21:24:33 +0000] "GET /static/ad4c7de0/css/layout-common.css HTTP/1.1" 200 54.88.158.46:443 "https://localhost:32797/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36" "-"
-172.17.0.1 - - [16/May/2018:21:24:33 +0000] "GET /static/ad4c7de0/css/responsive-grid.css HTTP/1.1" 200 54.88.158.46:443 "https://localhost:32797/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36" "-"
-172.17.0.1 - - [16/May/2018:21:24:33 +0000] "GET /static/ad4c7de0/scripts/yui/animation/animation-min.js HTTP/1.1" 200 54.88.158.46:443 "https://localhost:32797/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36" "-"
-172.17.0.1 - - [16/May/2018:21:24:33 +0000] "GET /static/ad4c7de0/css/color.css HTTP/1.1" 200 54.88.158.46:443 "https://localhost:32797/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36" "-"
-172.17.0.1 - - [16/May/2018:21:24:33 +0000] "GET /static/ad4c7de0/scripts/behavior.js HTTP/1.1" 200 54.88.158.46:443 "https://localhost:32797/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36" "-"
-172.17.0.1 - - [16/May/2018:21:24:33 +0000] "GET /static/ad4c7de0/scripts/prototype.js HTTP/1.1" 200 54.88.158.46:443 "https://localhost:32797/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36" "-"
-172.17.0.1 - - [16/May/2018:21:24:33 +0000] "GET /static/ad4c7de0/css/style.css HTTP/1.1" 200 54.88.158.46:443 "https://localhost:32797/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36" "-"
-172.17.0.1 - - [16/May/2018:21:24:33 +0000] "GET /static/ad4c7de0/scripts/yui/container/assets/container.css HTTP/1.1" 200 54.88.158.46:443 "https://localhost:32797/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36" "-"
+<ACCESS/ERROR LOGS BEGIN HERE>
 ...
 ...
 ...
