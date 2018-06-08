@@ -20,7 +20,7 @@ Otherwise, you can statically define this by using the argument `-p 8443:8443` i
 
 ```
 ~
-matthew.bates@LinkMJB🍺 $ docker run -e REMOTE_HOST=google.com -e REMOTE_PORT=443 -itP nginx-reverse-proxy:latest
+matthew.bates@LinkMJB🍺 $ docker run -e REMOTE_HOST=google.com -e REMOTE_PORT=443 -itP linkmjb/nginx-reverse-proxy:latest
 ...Generating SSL certificates
 Generating a 2048 bit RSA private key
 .................................+++
