@@ -1,5 +1,9 @@
 # nginx-reverse-proxy
 
+## Building
+
+Run: `make image`
+
 ## Using
 
 This docker image takes 2 optional arguments:
